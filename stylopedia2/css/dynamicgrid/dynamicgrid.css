@@ -1,0 +1,32 @@
+		
+/* main container, probably you don't need this */
+#final-tg  { width: 80%; margin: 10px auto; display: block; }
+
+/* filters: skip the following lines if you don't use them */
+#final-tg ul { margin: 0; padding: 0; height: 50px; }
+#final-tg li { list-style-type: none; }
+#final-tg li a { color: #333; float: left; margin: 0 20px 0 0; padding: 5px 10px; text-decoration: none;  }
+#final-tg li a:hover, #final-tg li a.selected { background: #333; color: #fff; }
+/* filters: end */
+
+
+/* captions: skip the following lines if you don't use them */
+#final-tg .tile .caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: url(images/opaque.png);
+	font-family: cursive;
+	opacity:0;
+	transition: all .3s;
+}
+#final-tg .tile a:hover .caption {
+	opacity:1;
+}
+#final-tg .tile .caption p {
+	margin:10px;
+	color: #fff;
+	font-size: 14px;	    
+}
+/* captions: end */

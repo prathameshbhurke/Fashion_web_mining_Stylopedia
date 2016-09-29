@@ -1,0 +1,124 @@
+/*=======================================================================
+
+	❤❤❤ Gumby by Digital Surgeons. ❤❤❤
+	
+	*** This is where you should keep all of your TEXT styles ***
+ 
+ ========================================================================*/
+ 
+ 	  @media screen and (max-width: 600px) {
+
+header{
+position:static
+}
+
+.slideshow{
+height:auto;
+}
+ 
+.item{
+margin-bottom:20px;
+} 
+
+.largepadding, .largemargin{
+padding:20px 0px !important;
+}
+
+.bigpadding, .bigmargin{
+padding:15px 0px !important;
+}
+
+.bigtoppadding, .bigbottompadding{
+padding-top:15px !important;
+}
+
+.largetoppadding, .largebottompadding{
+padding-top:20px !important;
+}
+
+
+
+.blackhorizontal, .whitehorizontal{
+width:70% !important;
+margin-left:auto !important;
+margin-right:auto !important;
+}
+
+.team{
+margin-bottom:20px;
+}
+
+.blackvertical, .whitevertical, .greyvertical{
+border-right:0px;
+padding-right:0px;
+}
+
+.gridblock{
+width:100%;
+}
+
+.griditem{
+margin-bottom:0px !important;
+overflow:hidden;
+}
+
+.hidden{
+overflow:visible;
+ }
+ 
+ footer.fixed {
+position:static;
+}
+ 
+.submit{
+padding:20px 40px !important;
+}
+
+.logo{
+margin-left:auto;
+margin-right:auto;
+}
+form .row{
+width:90%;
+margin-left:auto;
+margin-right:auto;
+}
+
+.gridder{
+max-width:auto;
+}
+ 
+ }
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* ==|== media queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    These override the primary ('mobile first') styles
+    Modify as content requires.
+    ========================================================================== */
+ 
+ @media only screen and (min-width: 480px) {
+   /* Style adjustments for viewports 480px and over go here */
+ 
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   /* Style adjustments for viewports 768px and over go here */
+ 
+ }
